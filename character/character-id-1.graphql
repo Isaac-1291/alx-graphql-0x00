@@ -1,0 +1,51 @@
+@"
+query {
+  character(id: 1) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
+"@ | Set-Content character-id-1.graphql
+
+@"
+query {
+  character(id: 2) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
+"@ | Set-Content character-id-2.graphql
+
+@"
+query {
+  character(id: 3) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
+"@ | Set-Content character-id-3.graphql
+
+@"
+query {
+  character(id: 4) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
+"@ | Set-Content character-id-4.graphql

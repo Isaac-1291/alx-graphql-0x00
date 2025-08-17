@@ -1,19 +1,8 @@
-## Fetch Episode Details by ID
+# Get Specific Episode by ID - GraphQL Task
 
-This GraphQL query fetches details of a specific episode using its ID.
+## Objective
+Retrieve a specific episode’s details using its ID from the provided GraphQL endpoint.
 
-### Query file
-
-- `episode-page-1.graphql`
-
-### Query structure
-
-```graphql
-query {
-  episode(id: "1") {
-    id
-    name
-    air_date
-    episode
-  }
-}
+## Endpoint
+```plaintext
+https://rickandmortyapi.com/graphql

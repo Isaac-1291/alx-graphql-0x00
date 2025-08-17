@@ -1,4 +1,4 @@
-{
+query {
   characters(page: 4) {
     results {
       id
